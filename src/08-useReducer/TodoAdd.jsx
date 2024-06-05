@@ -27,10 +27,10 @@ export const TodoAdd = ({ onNewTodo }) => {
         <input
           type="text"
           className="form-control"
-          placeholder="Que hay que hacer?"
           name="description"
           value={description}
           onChange={onInputChange}
+          placeholder="¿Que hay que hacer?"
         />
 
         <button className="btn btn-success mt-2" type="submit">
